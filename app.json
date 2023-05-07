@@ -17,7 +17,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "es.tincode.pokedex"
     },
     "android": {
       "package": "es.tincode.pokedex",
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b36c4602-78ef-47b0-90ae-3d8e8a5e71bc"
+      }
     }
   }
 }
