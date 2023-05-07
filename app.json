@@ -13,15 +13,14 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "es.tincode.pokedex"
+      "bundleIdentifier": "es.tiin24.pokedex"
     },
     "android": {
-      "package": "es.tincode.pokedex",
+      "package": "es.tiin24.pokedex",
+      "buildType": "apk",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"

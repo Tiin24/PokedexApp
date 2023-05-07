@@ -38,14 +38,14 @@ export default function LoginForm() {
     <View>
       <Text style={styles.title}>Iniciar sesión</Text>
       <TextInput
-        placeholder="Nombre de usuario"
+        placeholder="Nombre de usuario = Tiin24"
         style={styles.input}
         autoCapitalize="none"
         value={formik.values.username}
         onChangeText={(text) => formik.setFieldValue("username", text)}
       />
       <TextInput
-        placeholder="Contraseña"
+        placeholder="Contraseña = 1234"
         style={styles.input}
         autoCapitalize="none"
         secureTextEntry={true}
